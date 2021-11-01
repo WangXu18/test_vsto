@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Word\Addins\vsto.OfficialDocument]
+"FriendlyName"="vsto.OfficialDocument"
+"Description"="【自定义中文描述方便他人理解】"
+"LoadBehavior"=dword:00000003
+"CommandLineSafe"=dword:00000001
+[HKEY_CURRENT_USER\Software\Kingsoft\Office\WPS\AddinsWL]
+"vsto.OfficialDocument"=""

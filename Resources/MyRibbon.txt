@@ -1,0 +1,17 @@
+
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" loadImage="GetRibbonImage">
+  <ribbon startFromScratch="false">
+    <tabs>
+      <tab id="MyTab" label="可牛办公" visible="true" insertAfterMso="TabDeveloper">
+        <group id="rhgroup" label= "办公模板"> 
+          <button id="rh" label="办公模板" onAction="setCommonRH2" getImage="GetRibbonImage" size="large"/>
+        </group>
+      </tab>
+<tab idMso="TabHome">
+        <group id="rhgroup" label= "办公模板"> 
+          <button id="rh" label="办公模板" onAction="setCommonRH2" getImage="GetRibbonImage" size="large"/>
+        </group>
+</tab>
+    </tabs>
+  </ribbon>
+</customUI>
